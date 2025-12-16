@@ -1,0 +1,21 @@
+{
+  "name": "recipe-scraper-elite",
+  "version": "1.0.0",
+  "description": "Recipe Scraper ELITE PRO MAX - Browserless + Baserow",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "fast-xml-parser": "^4.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Recipe Scraper Elite",
+  "license": "MIT"
+}
